@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="78dp"
+    android:layout_height="78dp"
+    android:layout_gravity="center"
+    android:layout_marginStart="13dp"
+    android:layout_marginTop="9.10dp"
+    android:layout_marginBottom="9.10dp"
+    android:padding="2.60dp">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:padding="@dimen/_3sdp"-->
+    <!--        app:cardCornerRadius="@dimen/_10sdp"-->
+    <!--        app:cardElevation="@dimen/_3sdp"-->
+    <!--        app:cardPreventCornerOverlap="false"-->
+    <!--        app:cardUseCompatPadding="true">-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3.90dp">
+
+        <ImageView
+            android:id="@+id/sticker_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/color_stikcer_select"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:background="@color/color_blackLayer"-->
+        <!--            android:scaleType="centerCrop" />-->
+
+        <ImageView
+            android:id="@+id/btn_premium"
+            android:layout_width="15.60dp"
+            android:layout_height="15.60dp"
+            android:layout_gravity="center"
+            android:layout_margin="6.50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_pro"
+            app:tint="@color/orange"
+            app:layout_constraintBottom_toBottomOf="@+id/sticker_detail"
+            app:layout_constraintEnd_toEndOf="@+id/sticker_detail" />
+
+        <ImageView
+            android:id="@+id/btn_download"
+            android:layout_width="15.60dp"
+            android:layout_height="15.60dp"
+            android:layout_margin="6.50dp"
+            android:src="@drawable/ic_down"
+            app:layout_constraintEnd_toEndOf="@+id/sticker_detail"
+            app:layout_constraintTop_toTopOf="@+id/sticker_detail"
+            app:tint="@color/main_app_color" />
+
+        <ImageView
+            android:id="@+id/btn_check"
+            android:layout_width="15.60dp"
+            android:layout_height="15.60dp"
+            android:layout_margin="5.60dp"
+            android:src="@drawable/ic_check"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/sticker_detail"
+            app:layout_constraintTop_toTopOf="@+id/sticker_detail"
+            app:tint="#006600" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--    </androidx.cardview.widget.CardView>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

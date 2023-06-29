@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_marginTop="33px"
+        android:id="@+id/tabs_toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:text="@string/templates"
+            android:textSize="22dp"
+            android:layout_height="match_parent">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_settings_24"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:layout_marginRight="22dp"
+            android:foregroundGravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+    </FrameLayout>
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?attr/actionBarSize"-->
+    <!--        android:paddingLeft="0dp"-->
+    <!--        android:paddingTop="2dp"-->
+    <!--        android:paddingRight="0dp"-->
+    <!--        android:paddingBottom="0dp"-->
+    <!--        app:contentInsetEnd="0dp"-->
+    <!--        app:contentInsetStart="0dp">-->
+    <!--        <RadioGroup-->
+    <!--            android:id="@+id/radio_groups"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:weightSum="2"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:layout_height="match_parent">-->
+    <!--            <RadioButton-->
+    <!--                android:id="@+id/templates"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:button="@android:color/transparent"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="Templates"-->
+    <!--                android:layout_height="match_parent">-->
+    <!--            </RadioButton>-->
+    <!--            <RadioButton-->
+    <!--                android:id="@+id/my_projects"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:button="@android:color/transparent"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="My projects"-->
+    <!--                android:layout_height="match_parent">-->
+    <!--            </RadioButton>-->
+    <!--        </RadioGroup>-->
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_type"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="24px"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content"/>
+        <com.anthonycr.progress.AnimatedProgressBar
+            android:id="@+id/progress_view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/transparent"
+            app:bidirectionalAnimate="false"
+            app:progressColor="@color/progress_color" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5px"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcl_templates"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20px"
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

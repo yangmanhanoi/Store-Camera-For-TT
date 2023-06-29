@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sticker</string>
+
+    <string name="tab">Tab</string>
+    <string name="tabs">Tabs</string>
+    <string name="progress">Progress</string>
+    <string name="finished">Finished</string>
+    <string name="my_project">Albums</string>
+    <string name="mypro">My Projects</string>
+    <string name="templates">Templates</string>
+    <string name="photos">Photos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert_abort_edit_filter_message">"This photo is being edited effect.
+Are you sure you want to cancel?"</string>
+    <string name="alert_abort_edit_no">NO</string>
+    <string name="alert_abort_edit_yes">YES</string>
+</resources>

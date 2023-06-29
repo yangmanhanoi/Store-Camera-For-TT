@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/change_sticker"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="46dp">
+
+    <ImageView
+        android:id="@+id/btn_layer"
+        android:layout_width="0dp"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:src="@drawable/add_layer"
+        android:text="@string/Layer"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/btn_addtext"
+        android:layout_width="0dp"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:src="@drawable/add_txt"
+        android:text="@string/add"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/btn_sticker"
+        android:layout_width="0dp"
+        android:src="@drawable/add_sticker"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:text="@string/sticker"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/btn_addphoto"
+        android:layout_width="0dp"
+        android:src="@drawable/add_photo"
+        android:textAllCaps="false"
+        android:layout_weight="1"
+        android:text="@string/addphoto"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:id="@+id/none">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/none_background"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+            />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/none"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12.5dp"
+            android:clickable="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/gt1">
+
+                <jp.co.cyberagent.android.gpuimage.GPUImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_filter1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GT1"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/gt2">
+
+                <jp.co.cyberagent.android.gpuimage.GPUImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_filter2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GT2"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/gt3">
+
+                <jp.co.cyberagent.android.gpuimage.GPUImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_filter3"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GT3"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/gt4">
+
+                <jp.co.cyberagent.android.gpuimage.GPUImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_filter4"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GT4"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:id="@+id/gt5">
+
+                <jp.co.cyberagent.android.gpuimage.GPUImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/image_filter5"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GT5"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+</LinearLayout>

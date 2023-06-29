@@ -1,0 +1,36 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="dialog_Supporting">
+    <item name="android:textColor">@color/color_black</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:fontFamily">@fonts/0.tff</item>
+    <item name="android:gravity">start</item>
+  </style>
+
+  <style name="DialogAnimation">
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+  </style>
+
+  <style name="dialog_title">
+    <item name="android:textColor">@color/color_black</item>
+    <item name="android:textSize">15.6dp</item>
+    <item name="android:fontFamily">@font/title</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="text_base">
+    <item name="android:background">@drawable/toolbar_icon_rip</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:gravity">center</item>
+  </style>
+</resources>

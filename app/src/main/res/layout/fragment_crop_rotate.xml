@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:background="@drawable/round_2corner_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/cancel_rotate"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="15dp"
+        android:background="@drawable/close"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Rotate"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/accept_rotate"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_check_24"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/rotate_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Left"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_baseline_rotate_left_24"
+            android:background="@color/transparent"
+            android:layout_marginHorizontal="30dp"/>
+        <Button
+            android:id="@+id/rotate_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Right"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_baseline_rotate_right_24"
+            android:background="@color/transparent"
+            android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
+</FrameLayout>

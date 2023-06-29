@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#2B2A2A"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:layout_height="match_parent">
+    <TableRow>
+        <ImageView
+            android:id="@+id/layer"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/layer"
+            android:clickable="true"/>
+        <ImageView
+            android:id="@+id/addText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/t"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/sticker"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/sticker"
+            android:clickable="true"/>
+        <ImageView
+            android:id="@+id/addPhoto"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add_photo"
+            android:clickable="true"/>
+
+    </TableRow>
+
+
+</TableLayout>

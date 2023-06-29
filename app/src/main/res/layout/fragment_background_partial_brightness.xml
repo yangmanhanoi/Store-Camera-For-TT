@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:background="@drawable/round_2corner_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/cancel_partialBrightness"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="15dp"
+        android:background="@drawable/close"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Partial Brightness"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/accept_partialBrightness"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_check_24"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Please touch the area you want to change color"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:paddingStart="15dp"
+            android:id="@+id/textView_partialBrightness"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+
+        <com.rtugeek.android.colorseekbar.AlphaSeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/seekBar_partialBrightness"
+            android:visibility="gone"
+            app:alphaSeekBarMaxProgress="100"
+            app:alphaSeekBarProgress="50"
+            />
+
+    </LinearLayout>
+</FrameLayout>

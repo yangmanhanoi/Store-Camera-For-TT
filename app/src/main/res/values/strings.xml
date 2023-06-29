@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Camera Store</string>
+  <string name="text">空山新雨后，天气晚来秋。明月松间照，清泉石上流。竹喧归浣女，莲动下渔舟。随意春芳歇，王孙自可留。</string>
+  <string name="Layer">Layer</string>
+  <string name="add">Add text</string>
+  <string name="sticker">Sticker</string>
+  <string name="addphoto">Add photo</string>
+  <string name="item0">Back</string>
+  <string name="item1">Font</string>
+  <string name="item2">Alignment</string>
+  <string name="item3">Size</string>
+  <string name="item4">Distance</string>
+  <string name="item5">Opacity</string>
+  <string name="item6">Copy</string>
+  <string name="item7">Color</string>
+  <string name="cancel">Cancel</string>
+  <string name="yes">Yes</string>
+  <string name="back_save">Back and don\'t save?</string>
+  <string name="loading">Template Loading...</string>
+  <string name="open_premium">Upgrade to Premium</string>
+  <string name="upgrade">Upgrade</string>
+  <string name="advertised">Watch a video ad</string>
+
+</resources>

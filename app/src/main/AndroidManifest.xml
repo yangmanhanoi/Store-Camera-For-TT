@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaopo.flying.stickerview">
+
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+  <uses-permission android:name="android.permission.CAMERA" />
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/mainicon"
+      android:roundIcon="@drawable/mainicon"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity">
+    </activity>
+    <activity android:name=".AddTextActivity"
+      android:exported="false"/>
+    <activity android:name=".NewAvtivity"
+      android:exported="true">
+
+    </activity>
+    <activity android:name=".NewEditActivity"
+      android:exported="true">
+
+    </activity>
+    <activity android:name=".DetailTextFont"
+      android:exported="true"/>
+    <activity android:name=".HomeActivity"
+      android:exported="true">
+    </activity>
+
+    <activity
+        android:name=".CameraStoreActivity"
+        android:exported="false"
+        android:screenOrientation="portrait">
+      <meta-data
+          android:name="android.app.lib_name"
+          android:value="" />
+    </activity>
+    <activity
+        android:name=".PreviewPhotoActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"/>
+
+    <activity
+        android:name=".EditPhotoActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"/>
+    <activity
+        android:name=".ExportActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"/>
+    <activity android:name=".SplashScreen"
+        android:exported="true">
+
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

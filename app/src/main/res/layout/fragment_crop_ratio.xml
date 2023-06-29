@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:background="@drawable/round_2corner_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <Button
+            android:id="@+id/cancel_ratio"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:backgroundTint="@color/white"
+            android:layout_margin="15dp"
+            android:background="@drawable/close"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Ratio"
+            android:textSize="15dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/accept_ratio"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="right"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_baseline_check_24"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:weightSum="5"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/crop169"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="16:9"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ratio_16_9"
+                android:background="@color/transparent"/>
+            <Button
+                android:id="@+id/crop43"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="4:3"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ratio_4_3"
+                android:background="@color/transparent"/>
+            <Button
+                android:id="@+id/crop11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1:1"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ratio_1_1"
+                android:background="@color/transparent"/>
+            <Button
+                android:id="@+id/crop34"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="3:4"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ratio_3_4"
+                android:background="@color/transparent"/>
+            <Button
+                android:id="@+id/crop916"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="9:16"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableTop="@drawable/ratio_9_16"
+                android:background="@color/transparent"/>
+
+        </LinearLayout>
+</FrameLayout>

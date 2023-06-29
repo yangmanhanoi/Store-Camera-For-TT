@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    android:background="@drawable/round_2corner_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/cancel_brightness"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_margin="15dp"
+        android:background="@drawable/close"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Brightness"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/accept_brightness"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:background="@drawable/ic_baseline_check_24"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Intensity"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:paddingStart="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:min="0"
+            android:max="100"
+            android:progressTint="@color/purple_500"
+            android:thumbTint="@color/purple_500"
+            android:progressBackgroundTint="@color/gray"
+            android:progress="50"
+            android:id="@+id/intensity_brightness"/>
+
+    </LinearLayout>
+</FrameLayout>

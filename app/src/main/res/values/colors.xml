@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">@android:color/black</color>
+  <color name="colorPrimaryDark">@android:color/black</color>
+  <color name="colorAccent">@android:color/white</color>
+  <color name="color_black">#000000</color>
+  <color name="sticker_border">#ff666666</color>
+  <color name="main_color">#fc4b0e</color>
+  <color name="orange">#ffa500</color>
+  <color name="main_app_color">#6F83E9</color>
+  <color name="main_bg_color">#ffe9eaee</color>
+  <color name="bg_toolbar_color">#FFFFFF</color>
+  <color name="black">#ff000000</color>
+  <color name="white">#FFFFFF</color>
+  <color name="transparent">#00FFFFFF</color>
+  <color name="purple_200">#FFBB86FC</color>
+  <color name="purple_500">#FF6200EE</color>
+  <color name="purple_700">#FF3700B3</color>
+  <color name="gray">#858585</color>
+  <array name="origil_colors">
+    <!--        <item>#00000000</item>-->
+    <item>#FFFFFF</item>
+    <item>#000000</item>
+    <item>#333333</item>
+    <item>#666666</item>
+    <item>#999999</item>
+    <item>#CCCCCC</item>
+    <item>#CCCC99</item>
+    <item>#9999CC</item>
+    <item>#666699</item>
+
+    <item>#660000</item>
+    <item>#990000</item>
+    <item>#CC0000</item>
+    <item>#FF0000</item>
+    <item>#CC3333</item>
+    <item>#FF6666</item>
+    <item>#FF9999</item>
+    <item>#FFCCCC</item>
+
+    <item>#663300</item>
+    <item>#993300</item>
+    <item>#CC3300</item>
+    <item>#FF3300</item>
+    <item>#FF6600</item>
+    <item>#FF6633</item>
+    <item>#FF9966</item>
+    <item>#FFCC99</item>
+
+    <item>#996633</item>
+    <item>#CC9900</item>
+    <item>#FFCC00</item>
+    <item>#FFFF00</item>
+    <item>#FFFF33</item>
+    <item>#FFFF66</item>
+    <item>#FFFF99</item>
+    <item>#FFFFCC</item>
+
+
+    <item>#003300</item>
+    <item>#006600</item>
+    <item>#009900</item>
+    <item>#00CC00</item>
+    <item>#00FF00</item>
+    <item>#66FF66</item>
+    <item>#99FF99</item>
+    <item>#CCFFCC</item>
+
+
+    <item>#003333</item>
+    <item>#336666</item>
+    <item>#006666</item>
+    <item>#009999</item>
+    <item>#00CCCC</item>
+    <item>#66CCCC</item>
+    <item>#66FFCC</item>
+    <item>#99FFCC</item>
+
+    <item>#003399</item>
+    <item>#0033FF</item>
+    <item>#0066FF</item>
+    <item>#0099FF</item>
+    <item>#00CCFF</item>
+    <item>#00FFFF</item>
+    <item>#99FFFF</item>
+    <item>#CCFFFF</item>
+
+    <item>#000066</item>
+    <item>#000099</item>
+    <item>#0000CC</item>
+    <item>#0000FF</item>
+    <item>#3366FF</item>
+    <item>#3399FF</item>
+    <item>#66CCFF</item>
+    <item>#99CCFF</item>
+
+    <item>#330066</item>
+    <item>#660099</item>
+    <item>#663399</item>
+    <item>#9900CC</item>
+    <item>#9933FF</item>
+    <item>#9966FF</item>
+    <item>#9999FF</item>
+    <item>#CCCCFF</item>
+
+    <item>#660066</item>
+    <item>#990066</item>
+    <item>#CC0099</item>
+    <item>#FF0099</item>
+    <item>#FF00FF</item>
+    <item>#FF66FF</item>
+    <item>#FF99FF</item>
+    <item>#FFCCFF</item>
+  </array>
+  <color name="accent_color">#3887ff</color>
+  <color name="action_bar_color">#f2f3f5</color>
+  <color name="progress_color">@color/accent_color</color>
+
+  <color name="tab_un_select">#9e9ea1</color>
+  <color name="not_selected">#828796</color>
+  <color name="selected">#514EB6</color>
+  <color name="unselected">#FF000000</color>
+  <color name="yellow">#ffff00</color>
+
+</resources>
